@@ -8,7 +8,3 @@ root.render(
         <ResumeWebsite />
     </React.StrictMode>
 );
-
-/*
-"proxy": "http://localhost:5000",
-*/

@@ -25,9 +25,7 @@ export default function PersonalInformation() {
                 textAlign: 'center',
             }}
             >
-            <Avatar src={headshot} sx={{ width: 100, height: 100 }} />
-            <Typography variant="h5">Kevin Pomerantz</Typography>
-            <Typography variant="subtitle1">Data Analyst</Typography>
+<Avatar src={headshot} sx={{ width: 150, height: 150, border: '2px solid #ccc' }} />
             </Box>
             <Divider sx={{ mt: 2, mb: 2 }} />
             <List>
