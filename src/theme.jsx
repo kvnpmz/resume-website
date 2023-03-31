@@ -4,6 +4,23 @@ const theme = createTheme({
   typography: {
     fontFamily: 'Ubuntu, sans-serif',
   },
+  palette: {
+    background: {
+      default: '#003366',
+    },
+  },
+    components: {
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#f4f2e4',
+        },
+      },
+    },
+  },
 });
 
+
 export default theme;
+//f4f2e4
+

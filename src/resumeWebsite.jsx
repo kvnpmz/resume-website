@@ -1,5 +1,6 @@
 import {
     Container,
+    CssBaseline,
     Box,
     Grid,
 } from '@mui/material';
@@ -19,6 +20,7 @@ import Certifications from './certifications';
 export default function ResumeWebsite() {
     return (
         <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Header />
         <Container maxWidth="lg" sx={{ mt: 2, mb: 2 }}>
             <Grid container spacing={2}>
