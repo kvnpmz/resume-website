@@ -1,34 +1,45 @@
-import { AppBar, Box, Typography } from '@mui/material';
+import { AppBar, Box, Typography } from "@mui/material";
 
 export default function Header() {
-  return (
-    <AppBar position="static" sx={{ backgroundColor: '#66a0d9' }}>
-      <Box
-        sx={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          p: '0.5rem',
-        }}
-      >
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography
+    return (
+        <AppBar
+            position="static"
             sx={{
-              fontWeight: 'bold',
-              color: '#000',
-              fontSize: '2rem',
+                p: "0.4rem",
+                backgroundColor: "#EAF5FE",
+                boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.9)",
             }}
-          >
-            Kevin Pomerantz
-          </Typography>
-<Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <Typography sx={{ color: '#000', textAlign: 'center' }}>
-    Data Analyst • Business Analyst • Business Intelligence Specialist • BI Consultant • Data Scientist
-  </Typography>
-</Box>
-        </Box>
-      </Box>
-    </AppBar>
-  );
+        >
+            <Typography
+                sx={{
+                    mt: '0.3rem',
+                    fontWeight: "bold",
+                    color: "#000",
+                    fontSize: "2rem",
+                    textAlign: "center",
+                }}
+            >
+                Kevin Pomerantz
+            </Typography>
+            <Typography
+                sx={{
+                    m: '0.3rem',
+                    color: "#000",
+                    fontSize: "1.2rem",
+                    textAlign: "center",
+                }}
+            >
+                Data Analyst • Business Analyst • Business Intelligence
+                Specialist • BI Consultant • Data Scientist
+            </Typography>
+        </AppBar>
+    );
 }
+
+
+
+
+
+
+
 

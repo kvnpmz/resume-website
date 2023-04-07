@@ -22,17 +22,17 @@ export default function ResumeWebsite() {
         <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
-        <Container maxWidth="lg" sx={{ mt: 2, mb: 2 }}>
+        <Container maxWidth="lg" sx={{ mt: '3rem', mb: 2 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={4}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={2} >
                         <PersonalInformation />
                         <Education />
                         <CoreCompetencies />
                     </Grid>
                 </Grid>
                 <Grid item xs={12} md={8}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={2} >
                         <About />
                         <Skills />
                         <Experience />

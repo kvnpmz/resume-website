@@ -13,6 +13,7 @@ const theme = createTheme({
     MuiPaper: {
       styleOverrides: {
         root: {
+          padding: '2rem',
           backgroundColor: '#f4f2e4',
         },
       },

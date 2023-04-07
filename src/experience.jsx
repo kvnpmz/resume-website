@@ -44,8 +44,13 @@ const jobs = [
 
 export default function Experience() {
     return (
-        <Grid item xs={12}>
-            <Paper elevation={3} sx={{ p: 2}}>
+        <Grid item xs={12} 
+
+
+>
+            <Paper elevation={3} 
+
+>
                 <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>Experience</Typography>
 
                 {jobs.map((job, index) => (
