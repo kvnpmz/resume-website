@@ -4,11 +4,6 @@ export default function Header() {
     return (
         <AppBar
             position="static"
-            sx={{
-                p: "0.4rem",
-                backgroundColor: "#EAF5FE",
-                boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.9)",
-            }}
         >
             <Typography
                 sx={{
