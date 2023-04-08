@@ -1,4 +1,4 @@
-import { Container, CssBaseline, Box, Grid } from "@mui/material";
+import { Container, CssBaseline, Grid } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import Header from "./header";
@@ -9,8 +9,8 @@ import CoreCompetencies from "./coreComp";
 import Experience from "./experience";
 import About from "./about";
 import Education from "./education";
-import Projects from "./projects";
-import Certifications from "./certifications";
+//import Projects from "./projects";
+//import Certifications from "./certifications";
 
 export default function ResumeWebsite() {
     return (

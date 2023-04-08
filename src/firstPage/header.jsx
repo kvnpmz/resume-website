@@ -1,4 +1,4 @@
-import { AppBar, Box, Typography } from "@mui/material";
+import { AppBar, Typography } from "@mui/material";
 
 export default function Header() {
     return (

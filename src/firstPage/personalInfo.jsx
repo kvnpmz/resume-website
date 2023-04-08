@@ -1,5 +1,4 @@
 import {
-    Typography,
     Box,
     Grid,
     Paper,
