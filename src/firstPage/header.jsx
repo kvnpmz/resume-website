@@ -1,13 +1,14 @@
-import { AppBar, Typography } from "@mui/material";
+import { AppBar, Grid, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
     return (
-        <AppBar
-            position="static"
-        >
-            <Typography
+   <>
+<Grid item>
+     <AppBar position="static" sx={{m:0, p:0,}}> 
+           <Toolbar sx={{boxShadow: "0px 2px 5px rgba(254, 252, 236, 0.6)"}}>
+
+           <Typography
                 sx={{
-                    mt: '0.3rem',
                     fontWeight: "bold",
                     color: "#000",
                     fontSize: "2rem",
@@ -18,23 +19,18 @@ export default function Header() {
             </Typography>
             <Typography
                 sx={{
-                    m: '0.3rem',
+                    ml: "auto",
                     color: "#000",
                     fontSize: "1.2rem",
                     textAlign: "center",
                 }}
             >
-                Data Analyst • Business Analyst • Business Intelligence
-                Specialist • BI Consultant • Data Scientist
+                Data Analysis • Business Intelligence • Data Science • Programming 
             </Typography>
-        </AppBar>
-    );
+</Toolbar>       
+</AppBar>
+</Grid>
+</ >
+);
 }
-
-
-
-
-
-
-
 

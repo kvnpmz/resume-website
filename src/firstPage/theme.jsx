@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 
 const whiteColor = "#fefcec";
+const blueColor = "#003366";
 
 const theme = createTheme({
     typography: {
@@ -8,7 +9,10 @@ const theme = createTheme({
     },
     palette: {
         background: {
-            default: "#003366",
+            default: blueColor, 
+        },
+        custom: {
+            default: whiteColor, 
         },
     },
     components: {

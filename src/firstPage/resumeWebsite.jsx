@@ -9,6 +9,7 @@ import CoreCompetencies from "./coreComp";
 import Experience from "./experience";
 import About from "./about";
 import Education from "./education";
+import Banner from "./banner";
 //import Projects from "./projects";
 //import Certifications from "./certifications";
 
@@ -17,6 +18,7 @@ export default function ResumeWebsite() {
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Header />
+            <Banner />
             <Container maxWidth="lg" sx={{ mt: "3rem", mb: 2 }}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={4}>
@@ -31,15 +33,16 @@ export default function ResumeWebsite() {
                             <About />
                             <Skills />
                             <Experience />
-                            {/* 
-                        <Projects />
-                        <Certifications />
-                        */}
-                        </Grid>
+                                              </Grid>
                     </Grid>
                 </Grid>
             </Container>
             <Footer />
+
+                            {/*   <Projects />
+                        <Certifications />
+
+                        */}
         </ThemeProvider>
     );
 }
