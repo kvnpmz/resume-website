@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import { Card, CardMedia, Typography, Box } from '@mui/material';
 import library from "./images/library.jpg";
+=======
+import { Card, CardMedia, Typography, Box, Button } from '@mui/material';
+import library from "./images/library.jpg";
+import EmailContactForm from "./emailContactForm";
+>>>>>>> heroku/master
 
 const Banner = () => {
   return (
@@ -53,6 +59,10 @@ const Banner = () => {
         >
           Use data to drive insights and make informed decisions
         </Typography>
+<<<<<<< HEAD
+=======
+<EmailContactForm />    
+>>>>>>> heroku/master
  </Box>
     </Card>
   );
