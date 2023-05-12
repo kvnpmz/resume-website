@@ -1,6 +1,5 @@
 import { Card, CardMedia, Typography, Box } from '@mui/material';
 import library from "./images/library.jpg";
-import EmailContactForm from "./emailContactForm";
 
 const Banner = () => {
   return (
@@ -54,7 +53,6 @@ const Banner = () => {
         >
           Use data to drive insights and make informed decisions
         </Typography>
-<EmailContactForm />    
  </Box>
     </Card>
   );
